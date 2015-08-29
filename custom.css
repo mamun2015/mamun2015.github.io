@@ -1,0 +1,218 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+#mhStatic.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.mhBlockLine {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+.mhSubtitle {
+  font-size: 1.5em;
+}
+
+header {
+  height: 700px;
+  background-color: #555;
+}
+
+.mhJumbo {
+  background-image: url('http://i.imgur.com/V11eIRf.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mhUp {
+  margin: 30% 0 0 33%;
+  width: 50%;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+h1,
+h2 {
+  font-family: 'Lobster Two', cursive;
+}
+
+.mhSm {
+  width: 150px;
+  height: 150px;
+}
+
+.icon-mh {
+  border: 2px solid #fff;
+  border-radius: 55%;
+  width: 115px;
+  margin-left: 40%;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Lobster Two', cursive;
+}
+.socialIcons {
+margin: 0 auto -25px;
+padding:0;
+}
+.mhBig {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.icon-git {
+  background-image: url('http://i.imgur.com/SeBzXgR.png')
+}
+
+a.icon-git:hover {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: 0 32px;
+}
+
+.icon-fcc {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -37px 0;
+}
+
+a.icon-fcc:hover {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -37px 32px;
+}
+
+.icon-twt {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -78px 0;
+}
+
+a.icon-twt:hover {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -78px 32px;
+}
+
+.icon-link {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -116px 0;
+}
+
+a.icon-link:hover {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: -116px 32px;
+}
+
+.icon-fb {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: 32px 0;
+}
+
+a.icon-fb:hover {
+  background-image: url('http://i.imgur.com/SeBzXgR.png');
+  background-position: 32px 32px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social-links a {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.social-links a:hover {
+  border: 1px solid rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .8);
+}
+
+.mhBlock {
+  margin: 120px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mhUp h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-mh {
+    margin-left: 15%;
+  }
+}
+/*for gallery */
+
+.mhThumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.mhCap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(4, 4, 4, 0.6);
+  width: 100%;
+  height: 25%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color: #fff !important;
+  z-index: 9;
+}
+
+img.mhGray{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  
+    filter: gray;  
+    -webkit-transition: all .6s ease;  
+}
+
+img.mhGray:hover{ 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+/*end gallery */
+.mh-top {
+    margin-top: 20%;
+}
+.glyphicon {
+  top: 4px;
+  padding-right: 5px;
+}
+
+#footer {
+  padding: 15px 0;
+  background-color: #222;
+   position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+ }
+#footer p, #footer a {
+  color: #666;
+}
