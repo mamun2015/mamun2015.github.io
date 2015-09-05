@@ -55,4 +55,8 @@ p {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  color: #222;
+}
+.footer a {
+  color: #222;
 }
