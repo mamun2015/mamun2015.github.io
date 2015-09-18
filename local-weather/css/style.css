@@ -1,0 +1,106 @@
+html {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html { font-size: 14px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 12px; }
+}
+
+body {
+  background-color:#05051D;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 0px;
+}
+h4 {
+    line-height: 0;
+    margin: 0 0 10px;
+}
+
+.center  {
+  margin: 10px 0;
+ }
+
+@media all and (min-width:300px) {
+  .center {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+    transform: translateY(-30%);
+  }
+}
+
+.temperature {
+  font-size: 9rem;
+  font-weight: 100;
+  line-height: 1.00;
+  vertical-align: top;
+ }
+
+.temperature:after {
+  content: '\B0 C';
+  font-size: 40px;
+  line-height: 1.4;
+  vertical-align: top;
+  margin-left: -6px;
+}
+.fahrSymb:after {
+  content: '\B0 F';
+}
+
+.celSymb:after {
+  content: '\B0 C';
+}
+
+.ChangeButton {
+  background: none;
+  border: none;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+.cel {
+  border-right: 2px solid #fff;
+  cursor: pointer; cursor: hand;
+}
+.fahr {
+  cursor: pointer; cursor: hand;
+}
+
+.footer {
+  background: rgba(16, 16, 39, 0.48);
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  height: 45px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid #0B0B1F;
+}
+
+.icon-group {
+    padding-top: 10px;
+}
+
+.icon-group a {
+    color: #555;
+}
+
+.icon-group a:hover {
+    color: #afbfcf;
+}
